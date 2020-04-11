@@ -8,7 +8,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile/profile.component';
 import { ProfileModule } from './profile/profile/profile.module';
-import { IntroComponent } from './profile/profile/intro/intro.component';
 
 const routes: Routes = [
   {

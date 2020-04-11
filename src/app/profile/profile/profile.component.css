@@ -1,0 +1,15 @@
+.header-section {
+    height: 100%;
+    position: fixed;
+}
+
+.profile-content {
+    width: calc(100% - 300px);
+    float: right;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
