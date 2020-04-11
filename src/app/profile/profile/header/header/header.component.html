@@ -1,26 +1,26 @@
 <div class="header-content">
-    <h1>KATE HADDEN</h1>
-    <h3>software engineer</h3>
-    <h5>san diego, california</h5>
-    <div class="sidebar">
-        <div class="navbar">
-            <ul class="nav-list">
-                <li (click)="navigate('about')">
-                    ABOUT
-                </li>
-                <li (click)="navigate('experience')">
-                    EXPERIENCE
-                </li>
-                <li (click)="navigate('skills')">
-                    SKILLS
-                </li>
-                <li (click)="navigate('education')">
-                    EDUCATION
-                </li>
-                <li (click)="navigate('contact')">
-                    CONTACT
-                </li>
-            </ul>
-        </div>
+    <div class="title-container">
+        <div class="title">KATE HADDEN</div>
+        <div class="subtitle">software engineer</div>
+        <div class="location">san diego, california</div>
+    </div>
+    <div class="navbar">
+        <ul class="nav-list">
+            <li class="nav-option" (click)="navigate('about')">
+                ABOUT
+            </li>
+            <li class="nav-option" (click)="navigate('experience')">
+                EXPERIENCE
+            </li>
+            <li class="nav-option" (click)="navigate('skills')">
+                SKILLS
+            </li>
+            <li class="nav-option" (click)="navigate('education')">
+                EDUCATION
+            </li>
+            <li class="nav-option" (click)="navigate('contact')">
+                CONTACT
+            </li>
+        </ul>
     </div>
 </div>
