@@ -5,6 +5,11 @@
     box-shadow: 5px 5px 3px -1px rgba(0, 0, 0, 0.5);
 }
 
+.section-title {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
 .contact-title {
     padding: 20px;
     font-size: x-large;
