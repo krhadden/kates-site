@@ -12,7 +12,7 @@
 }
 
 .title-container {
-    background-color: #ff80aa;
+    background-color: #7acaff;
     border-radius: 50%;
     height: 230px;
     width: 230px;
@@ -27,6 +27,7 @@
 .title {
     font-size: 30px;
     margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .subtitle {
